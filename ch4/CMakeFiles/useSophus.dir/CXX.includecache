@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/aruchid/aruchid/code/slambook2-master/ch4/useSophus.cpp
+iostream
+-
+cmath
+-
+Eigen/Core
+-
+Eigen/Geometry
+-
+sophus/se3.hpp
+/home/aruchid/aruchid/code/slambook2-master/ch4/sophus/se3.hpp
+
